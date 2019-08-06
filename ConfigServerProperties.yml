@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-config-server
+server:
+  port: 8080
+org:
+    name: GitHub
+    location: I am coming from GitHub
+    application: Spring Cloud Config Server Demo
