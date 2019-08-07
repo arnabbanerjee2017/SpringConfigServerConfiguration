@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-config-server
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    register-with-eureka: false
+    serviceUrl:
+      serviceUrl: http://127.0.0.1:8761/eureka/
